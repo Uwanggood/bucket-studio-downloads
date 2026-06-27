@@ -1,0 +1,20 @@
+Bucket Studio Beta Binary License
+
+Copyright (C) 2026 Bucket Studio. All rights reserved.
+
+Bucket Studio beta binaries are provided free of charge for evaluation and everyday use during the beta period.
+
+You may:
+
+- Download and use the published Bucket Studio beta binaries.
+- Share links to the official download page.
+- Make reasonable backup copies of the downloaded artifact for personal or internal use.
+
+You may not:
+
+- Redistribute modified binaries.
+- Sell, sublicense, rent, or repackage Bucket Studio without written permission.
+- Reverse engineer, decompile, or extract proprietary UI package source except where applicable law explicitly permits it.
+- Remove copyright, privacy, security, or third-party notices from redistributed official artifacts.
+
+Bucket Studio is provided "as is" without warranties of any kind. You are responsible for verifying releases, protecting your credentials, and confirming that the app is appropriate for your storage workflow.
