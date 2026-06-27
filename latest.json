@@ -1,13 +1,13 @@
 {
   "version": "0.1.0",
-  "build": 1,
+  "build": 2,
   "releasedAt": "2026-06-27",
   "mandatory": false,
-  "notes": "Added update checks and privacy-scrubbed crash diagnostics wiring.",
+  "notes": "Enabled privacy-scrubbed Sentry diagnostics for beta builds.",
   "releaseUrl": "https://github.com/Uwanggood/bucket-studio-downloads/releases/tag/v0.1.0",
   "windowsX64": {
     "url": "https://github.com/Uwanggood/bucket-studio-downloads/releases/download/v0.1.0/bucket-studio-v0.1.0-windows-x64.zip",
-    "sha256": "89344e452dd63116cc06418071938aca6b9502028cafde5a2c2289c850c3cdda",
+    "sha256": "134700ea2a6113e9ebc43f86990a4e7085f65c2e2b6915732dd0f6e06683c169",
     "fileName": "bucket-studio-v0.1.0-windows-x64.zip"
   },
   "macosUniversal": null,
