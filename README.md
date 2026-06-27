@@ -48,7 +48,9 @@ See `PRIVACY.md` and `SECURITY.md` for details.
 
 Bucket Studio is free during beta. Donations help fund maintenance, signing certificates, store accounts, and cross-platform packaging.
 
-Donation links are being prepared. Until then, feedback, issue reports, and checksum-verified beta testing help the project a lot.
+- Ko-fi: https://ko-fi.com/uwanggood
+
+Feedback, issue reports, and checksum-verified beta testing also help the project a lot.
 
 ## License
 

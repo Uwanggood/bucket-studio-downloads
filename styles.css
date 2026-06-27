@@ -270,6 +270,31 @@ h1 {
   border-top: 1px solid var(--line);
 }
 
+.support-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.support-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--teal);
+  border-radius: 8px;
+  background: var(--teal);
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.support-links a.secondary {
+  background: #ffffff;
+  color: var(--teal-ink);
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -370,7 +395,8 @@ html[lang="ko"] .check-list {
   }
 
   .button,
-  .download-links a {
+  .download-links a,
+  .support-links a {
     width: 100%;
   }
 
