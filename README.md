@@ -6,6 +6,12 @@ It gives Windows, macOS, and Linux users the same clean interface for AWS S3, Cl
 
 Bucket Studio is currently distributed as a free beta. Source code is private during beta because the app depends on a private company UI package, but the app is designed to keep credentials on your device and connect directly to the storage endpoint you configure.
 
+## Website
+
+Public landing page:
+
+https://uwanggood.github.io/bucket-studio-downloads/
+
 ## Downloads
 
 Download the latest release from the Releases page.
@@ -33,7 +39,7 @@ Every release should include `SHA256SUMS.txt`. Verify the downloaded artifact be
 - Credentials are stored on your device.
 - Bucket Studio does not send credentials to a Bucket Studio server.
 - Connections are made directly from the app to the provider endpoint you configure.
-- Telemetry is not enabled during beta.
+- Beta diagnostics are privacy-scrubbed and documented in `PRIVACY.md`.
 - Destructive delete actions use a preview/confirmation flow.
 
 See `PRIVACY.md` and `SECURITY.md` for details.

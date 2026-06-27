@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bucket Studio - S3-Compatible Storage Browser For Desktop</title>
+    <meta
+      name="description"
+      content="Bucket Studio is a local-first desktop browser for S3-compatible object storage, including AWS S3, Cloudflare R2, Wasabi, MinIO, and compatible endpoints."
+    >
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#101318">
+    <link rel="canonical" href="https://uwanggood.github.io/bucket-studio-downloads/">
+    <link rel="icon" href="assets/bucket-studio-icon.png">
+    <link rel="apple-touch-icon" href="assets/bucket-studio-icon.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bucket Studio - S3-Compatible Storage Browser">
+    <meta
+      property="og:description"
+      content="A free beta desktop app for browsing buckets, uploading files, downloading objects, and managing S3-compatible storage locally."
+    >
+    <meta property="og:url" content="https://uwanggood.github.io/bucket-studio-downloads/">
+    <meta property="og:image" content="https://uwanggood.github.io/bucket-studio-downloads/assets/bucket-studio-hero.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bucket Studio">
+    <meta
+      name="twitter:description"
+      content="A local-first desktop browser for S3-compatible object storage."
+    >
+    <meta name="twitter:image" content="https://uwanggood.github.io/bucket-studio-downloads/assets/bucket-studio-hero.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Bucket Studio",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Windows, macOS, Linux",
+        "description": "Bucket Studio is a local-first desktop browser for S3-compatible object storage.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "downloadUrl": "https://github.com/Uwanggood/bucket-studio-downloads/releases/latest",
+        "softwareVersion": "0.1.0",
+        "url": "https://uwanggood.github.io/bucket-studio-downloads/"
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="./" aria-label="Bucket Studio home">
+        <img src="assets/bucket-studio-icon.png" alt="" width="34" height="34">
+        <span>Bucket Studio</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#download">Download</a>
+        <a href="#security">Security</a>
+        <a href="#support">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Local-first object storage browser</p>
+          <h1 id="hero-title">One desktop app for S3-compatible storage.</h1>
+          <p class="hero-text">
+            Bucket Studio gives Windows, macOS, and Linux users the same clean interface
+            for AWS S3, Cloudflare R2, Wasabi, MinIO, and compatible endpoints.
+          </p>
+          <div class="hero-actions" id="download">
+            <a class="button primary" href="https://github.com/Uwanggood/bucket-studio-downloads/releases/latest">
+              Download Windows beta
+            </a>
+            <a class="button secondary" href="latest.json">View update manifest</a>
+          </div>
+          <p class="release-note">Latest beta: v0.1.0 build 2. Windows x64 is the primary beta target.</p>
+        </div>
+      </section>
+
+      <section class="section intro" aria-label="Product summary">
+        <div>
+          <p class="section-kicker">Why it exists</p>
+          <h2>Object storage tools should not change personality on every OS.</h2>
+        </div>
+        <p>
+          Bucket Studio is built for people who move between operating systems but still
+          need predictable bucket browsing, uploads, downloads, presigned URLs, and safe
+          delete previews.
+        </p>
+      </section>
+
+      <section class="feature-grid" aria-label="Features">
+        <article>
+          <h3>Browse buckets fast</h3>
+          <p>Move through buckets, prefixes, and objects with a desktop interface made for scanning.</p>
+        </article>
+        <article>
+          <h3>Upload and download locally</h3>
+          <p>Use OS file pickers for local transfers without sending credentials to a remote server.</p>
+        </article>
+        <article>
+          <h3>Generate presigned URLs</h3>
+          <p>Create real provider-signed URLs from the configured endpoint and credentials.</p>
+        </article>
+        <article>
+          <h3>Preview destructive work</h3>
+          <p>Delete flows are designed around preview and confirmation before real object removal.</p>
+        </article>
+      </section>
+
+      <section class="section trust" id="security" aria-label="Security model">
+        <div>
+          <p class="section-kicker">Security model</p>
+          <h2>Your storage credentials stay on your device.</h2>
+        </div>
+        <ul class="check-list">
+          <li>Bucket Studio connects directly to the storage endpoint you configure.</li>
+          <li>Access keys, secret keys, bucket names, and object paths are not sent to a Bucket Studio server.</li>
+          <li>Beta diagnostics are privacy-scrubbed and documented in the public privacy notes.</li>
+          <li>Release artifacts include SHA256 checksums for verification.</li>
+        </ul>
+      </section>
+
+      <section class="downloads" aria-label="Downloads">
+        <div class="download-panel">
+          <p class="section-kicker">Current release</p>
+          <h2>Windows beta is available now.</h2>
+          <p>
+            macOS and Linux packages are planned after the beta packaging and signing path settles.
+          </p>
+          <div class="download-links">
+            <a href="https://github.com/Uwanggood/bucket-studio-downloads/releases/latest">Latest release</a>
+            <a href="https://github.com/Uwanggood/bucket-studio-downloads/releases/download/v0.1.0/SHA256SUMS.txt">SHA256 checksums</a>
+            <a href="PRIVACY.md">Privacy</a>
+            <a href="SECURITY.md">Security</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section support" id="support" aria-label="Support Bucket Studio">
+        <div>
+          <p class="section-kicker">Donationware beta</p>
+          <h2>Free during beta, supported by users.</h2>
+        </div>
+        <p>
+          Donation links are being prepared. Support will fund signing certificates,
+          store accounts, packaging, and maintenance across Windows, macOS, and Linux.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Bucket Studio</span>
+      <span>Local-first S3-compatible storage browser.</span>
+    </footer>
+  </body>
+</html>

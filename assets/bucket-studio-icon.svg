@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="112" x2="864" y2="912" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EDEEFC"/>
+    </linearGradient>
+    <linearGradient id="bucket" x1="318" y1="372" x2="706" y2="844" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#343444"/>
+      <stop offset="1" stop-color="#111114"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="244" y1="318" x2="780" y2="486" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#464766"/>
+      <stop offset="1" stop-color="#18181D"/>
+    </linearGradient>
+  </defs>
+  <rect x="88" y="88" width="848" height="848" rx="216" fill="url(#bg)"/>
+  <ellipse cx="512" cy="825" rx="270" ry="46" fill="#000000" opacity=".12"/>
+  <rect x="336" y="246" width="144" height="144" rx="34" fill="#FFDB56" transform="rotate(-8 408 318)"/>
+  <rect x="448" y="178" width="164" height="164" rx="38" fill="#92BFFF" transform="rotate(5 530 260)"/>
+  <rect x="580" y="250" width="136" height="136" rx="32" fill="#6AE2C9" transform="rotate(9 648 318)"/>
+  <path d="M238 408H786L711 767C701 817 668 844 618 844H406C356 844 323 817 313 767L238 408Z" fill="url(#bucket)"/>
+  <path d="M348 570L512 518L676 570L646 708L512 759L378 708Z" fill="#9F9FF8"/>
+  <path d="M512 518L676 570L646 708L512 759V518Z" fill="#92BFFF"/>
+  <path d="M348 570L512 518V759L378 708Z" fill="#C58AFF" opacity=".8"/>
+  <ellipse cx="512" cy="404" rx="306" ry="92" fill="url(#rim)"/>
+  <ellipse cx="512" cy="395" rx="236" ry="47" fill="#F9F9FA"/>
+  <ellipse cx="512" cy="395" rx="236" ry="47" fill="#9F9FF8" opacity=".18"/>
+  <path d="M279 410C339 446 685 446 745 410C710 464 314 464 279 410Z" fill="#111114" opacity=".72"/>
+</svg>

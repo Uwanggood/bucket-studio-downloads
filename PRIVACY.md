@@ -8,11 +8,11 @@ Provider credentials are stored on your device using platform secure storage whe
 
 The app connects directly from your computer to the S3-compatible endpoint you configure, such as AWS S3, Cloudflare R2, Wasabi, MinIO, or a compatible private endpoint.
 
-## Telemetry
+## Diagnostics And Updates
 
-Telemetry is not enabled during beta.
+Beta builds may use Sentry for crash and error diagnostics when diagnostics are enabled at build time. Diagnostic events are configured to avoid storage credentials, secret keys, session tokens, bucket names, endpoints, object paths, presigned query strings, request bodies, screenshots, and default personally identifiable information.
 
-If telemetry, crash reporting, or update checks are added later, they should be documented here and should not include storage credentials.
+Bucket Studio also checks the public update manifest at `latest.json` to learn whether a newer release is available. The update manifest does not require storage credentials.
 
 ## Local Files
 
