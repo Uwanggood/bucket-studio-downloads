@@ -1,0 +1,27 @@
+One desktop app for S3-compatible storage.
+
+Bucket Studio is a local-first desktop browser for AWS S3, Cloudflare R2, Wasabi, MinIO, and compatible object storage endpoints.
+
+It exists because storage tools should not change personality on every operating system. Windows users have one tool, macOS users have another, and Linux users often end up stitching together command-line workflows. Bucket Studio is built to make bucket browsing, uploads, downloads, presigned URLs, and safer delete flows feel consistent across platforms.
+
+What you can do today
+- Browse buckets, prefixes, and objects with a desktop interface made for scanning.
+- Upload and download through native OS file pickers.
+- Generate presigned URLs from your configured endpoint and credentials.
+- Preview destructive delete work before real object removal.
+- Connect directly to AWS S3, Cloudflare R2, Wasabi, MinIO, or another compatible endpoint.
+
+Local-first security model
+- Your access key, secret key, bucket name, and object paths are not sent to a Bucket Studio server.
+- The app connects directly from your device to the storage endpoint you configure.
+- Release files include SHA256 checksums on the public release page.
+
+Beta note
+The Windows beta is available now. macOS and Linux packaging are planned after the beta packaging and signing path settles. This Windows build is not code-signed yet, so SmartScreen may show a warning.
+
+Support the project
+Bucket Studio is free during beta. Naming your own price here helps fund Windows code signing, Apple developer/notarization work, Linux packaging, update infrastructure, and continued maintenance.
+
+Official website: https://uwanggood.github.io/bucket-studio-downloads/
+Ko-fi: https://ko-fi.com/uwanggood
+GitHub release mirror: https://github.com/Uwanggood/bucket-studio-downloads/releases/latest
